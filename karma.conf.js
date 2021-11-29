@@ -26,7 +26,8 @@ module.exports = function (config) {
     },
     coverageReporter: {
       dir: 'coverage/',
-      reporters: [{ type: 'html' }, { type: 'text-summary' }]
+      subdir: '.',
+      reporters: [{ type: 'lcov' }, { type: 'text-summary' }]
     },
     reporters: ['progress', 'kjhtml', 'coverage'],
     port: 9876,
