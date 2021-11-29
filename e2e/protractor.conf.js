@@ -11,7 +11,10 @@ exports.config = {
   allScriptsTimeout: 11000,
   specs: ['./src/**/*.e2e-spec.ts'],
   capabilities: {
-    browserName: 'chrome'
+    browserName: 'chrome',
+    chromeOptions: {
+      args: [ "--headless", "--disable-gpu" ]
+    }
   },
   directConnect: true,
   SELENIUM_PROMISE_MANAGER: false,
