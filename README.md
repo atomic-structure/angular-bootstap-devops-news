@@ -1,3 +1,4 @@
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/1ec15a1bd12e437bab332b183762f395)](https://www.codacy.com/gh/atomic-structure/angular-bootstap-devops-news/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=atomic-structure/angular-bootstap-devops-news&amp;utm_campaign=Badge_Grade)
 # Angular DevOps News App
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.3.
